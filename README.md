@@ -1,7 +1,7 @@
 # GMI (Graphical Mutual Information)
 Graph Representation Learning via Graphical Mutual Information Maximization (Peng Z, Huang W, Luo M, *et al.*, WWW 2020): [https://arxiv.org/abs/2002.01169](https://arxiv.org/abs/2002.01169)
 
-![image](http://github.com/zpeng27/GMI/raw/master/illustration.jpg)
+![image](https://github.com/zpeng27/GMI/blob/master/illustration.jpg)
 
 ## Overview
 Note that we propose two variants of GMI in the paper, the one is GMI-mean, and the other is GMI-adaptive. Since GMI-mean often outperforms GMI-adaptive (see the experiments in the paper), here we give a PyTorch implementation of GMI-mean. To make GMI more practical, we provide an alternative solution to compute FMI. Such a solution still ensures the effectiveness of GMI and improves the efficiency greatly. The repository is organized as follows:
