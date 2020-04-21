@@ -11,7 +11,7 @@ Note that we propose two variants of GMI in the paper, the one is GMI-mean, and 
 - `layers/` contains the implementation of a standard GCN layer (`gcn.py`), the bilinear discriminator (`discriminator.py`), and the mean-pooling operator (`avgneighbor.py`),;
 - `utils/` contains the necessary processing tool (`process.py`).
 
-To better understand the code, we recommend that you could read the code of DGI/Petar Veličković (https://arxiv.org/abs/1809.10341) in advance. Besides, you could further optimize the code based on your own needs. We display it in an easy-to-read form.
+To better understand the code, we recommend that you could read the code of DGI/Petar (https://arxiv.org/abs/1809.10341) in advance. Besides, you could further optimize the code based on your own needs. We display it in an easy-to-read form.
 
 ## Requirements
 
